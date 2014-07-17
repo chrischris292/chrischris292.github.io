@@ -6,5 +6,14 @@ $(function() {
 	SC.get('/tracks', { tags: "seattle", limit: 5 }, function(tracks) {
 		console.log(tracks)
   	});
-
+	  	
+	var url = "http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=669ed02065341f9f903674d47bb1ac36&tags=yokota+air+base&safe_search=1&per_page=20";
+	var src;
+	$.getJSON(url + "&format=json&jsoncallback=?", function(data){
+	    $.each(data.photos.photo, function(i,item){
+	        src = "http://farm"+ item.farm +".static.flickr.com/"+ item.server +"/"+ item.id +"_"+ item.secret +"_m.jpg";
+	        $("<img/>").attr("src", src).appendTo("#images");
+	        if ( i == 3 ) return false;
+	    });
+	});
 });
