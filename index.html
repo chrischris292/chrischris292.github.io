@@ -1,15 +1,96 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <title>jquery.rdio test</title>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-  <script src="js/controller.js"></script>
-  <script type="text/javascript"></script>
-  <script type="text/javascript" src="http://connect.soundcloud.com/sdk.js"></script>
-  <script type="text/javascript" src="http://w.soundcloud.com/player/api.js"></script>
+<html><head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Christopher Chan | Computer Engineer</title>
+    <meta name="description" content="A simple guide to responsive design.">
 
-</head>
-<body>
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/grid.css" type="text/css">
+    <link rel="stylesheet" href="css/tooltipster.css" type="text/css">
+    <link rel="stylesheet" href="css/fontello.css" type="text/css">
+    <!-- Google Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet" type="text/css">
 
+    <!-- Scripts -->
+    <script src = "js/jquery.js"></script>
+    <script src = "js/jquery.tooltipster.min.js"></script>
+    <script src = "js/custom.js"></script>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv31CvY7ujhUTP3DDn2ArfedscGjXl9lU&sensor=true">
+    </script>
+
+  </head>
+
+  <body>
+    <div class = "introduction">
+    <div class = "img"></div>
+    <div class = "img-cover"></div>
+	       	<div class="topHeader">
+	          	<h1>Christopher Chan</h1>
+	          	<p class = "subTItle">"Details matter, it’s worth waiting to get it right." - <a href="/" target="_blank">Steve Jobs</a></p>
+	          	<p id="iconRow">
+		          	<i class="icon-globe theTop" id = "globe"></i>
+		          	<i class="icon-twitter theTop" id = "twitter"></i>
+		          	<i class="icon-github-circled theTop" id = "github"></i>
+		          	<i class="icon-linkedin theTop" id = "linkedin"></i>
+		          	<i class="icon-mail theTop" id = "mail"></i>
+	          	</p>
+	        </div>
+    </div>
+    <section>
+      <div class="container">
+		<i class="icon-user" id = "user"></i>
+        <h1>Who Am I?</h1>
+        <p>I am a Computer Engineer at the University of Illinois at Urbana Champaign. I expect to graduate with a bachelors in 2016. </p><br/>
+        <p>Outside of school, I have self taught myself web development and have interned at multiple technical companies as a result. </p>
+      </div>
+    </section>
+    <header class="clearfix map">
+    <div id = "work-header"><div id = "workText">Where Have I Worked?</div></div>
+    <section class = "workExperience">
+      <div class="container">
+          <i class="icon-users theIcon"></i>
+          <h1 class = "subtitleWork">Work Experience</h1>
+          <div class = "thirdsColumn"><img src = "images/att.jpg" class = "roundImage"/><h3> AT&T </h3><h4 class = "subThirds"> June 2014 - Present </h4>This application came to use when I wanted to annoy some of my friends during strenuous study times. Before I took away the funding for the application to run using Twilio, It would play mp3 files of my liking on the phone to phone numbers that I was interested in. </div>
+          <div class = "thirdsColumn"><img src = "images/dow.jpg" class = "roundImage"/><h3> Dow Chemical </h3><h4 class = "subThirds"> October 2013 - May 2014 </h4>This application came to use when I wanted to annoy some of my friends during strenuous study times. Before I took away the funding for the application to run using Twilio, It would play mp3 files of my liking on the phone to phone numbers that I was interested in. </div>
+          <div class = "thirdsColumn"><img src = "images/washington.jpg" class = "roundImage"/><h3> University Of Washington </h3><h4 class = "subThirds"> May 2013 -  August 2013 </h4>This application came to use when I wanted to annoy some of my friends during strenuous study times. Before I took away the funding for the application to run using Twilio, It would play mp3 files of my liking on the phone to phone numbers that I was interested in. </div>
+       
+      </div>
+    </section>
+    <div id = "projects-header"><div id = "workText">What Have I Done?</div></div>
+
+    <section class = "projectExperience">
+      <div class="container">
+          <i class="icon-code theIcon"></i>
+          <h1 class = "subtitleWork">Coding Projects</h1>
+          <div class = "thirdsColumn" id="kdTree" data-action="bounce"><img src = "images/tree.png" class = "roundImageProject"/><div class = "subText"><h4>K-D Trees </h4><h5 class = "subThirds"> C++ </h5></div></div>
+          <div class = "thirdsColumn" id="bus" data-action="bounce"><img src = "images/busApp.png" class = "roundImageProject"/><div class = "subText"><h4>CUMTD Bus App </h4><h5 class = "subThirds"> Parse | Web Dev </h5></div></div>
+          <div class = "thirdsColumn" id="baseball" data-action="bounce"><img src = "images/baseball.png" class = "roundImageProject"/><div class = "subText"><h4>Baseball Sabermetrics App </h4><h5 class = "subThirds"> PHP | SQL | Web Dev </h5></div></div>
+          <div class = "thirdsColumn " id="football" data-action="bounce"><img src = "images/football.png" class = "roundImageProject"/><div class = "subText"><h4>Football Picker </h4><h5 class = "subThirds"> Firebase | Web Dev </h5></div></div>
+          <div class = "thirdsColumn " id="biology" data-action="bounce"><img src = "images/tree.png" class = "roundImageProject"/><div class = "subText"><h4>SBML Systems Biology Parser </h4><h5 class = "subThirds"> Javascript </h5></div></div>
+          <div class = "thirdsColumn" id="stocks" data-action="bounce"><img src = "images/stock.png" class = "roundImageProject"/><div class = "subText"><h4>Benjamin Graham Valuations </h4><h5 class = "subThirds"> YQL | Web Dev </h5></div></div>
+          <div class = "thirdsColumn " id="maze" data-action="bounce"><img src = "images/maze.png" class = "roundImageProject"/><div class = "subText"><h4>Maze Generator and Solver </h4><h5 class = "subThirds"> C++ | Disjoint Sets | BFS/DFS </h5></div></div>
+          <div class = "thirdsColumn " id="tictactoe" data-action="bounce"><img src = "images/tree.png" class = "roundImageProject"/><div class = "subText"><h4>Tic Tac Toe AI </h4><h5 class = "subThirds"> Java | Minimax Tree </h5></div></div>
+          <div class = "thirdsColumn " id="prank" data-action="bounce"><img src = "images/phone.png" class = "roundImageProject"/><div class = "subText"><h4>Prank Caller </h4><h5 class = "subThirds"> Twillio | Web Dev </h5></div></div>
+          <div><i class = "icon-dot-3 theIcon"></i><div>
+          <div class = "halfColumn"><h1>Other Coursework Projects</h1>
+In C++ I've also developed a Quadtree representation of a PNG image fully equiped with compression and decompression features. As well, I have implemented DFS and BFS fill algorithms in gif images. In C, I have developed a Soduku solver and logic for a self autonomous car with an Arduino and transistor-transistor logic.  </div>
+      </div>
+       <div class = "halfColumnRight"><h1>Other Personal Projects</h1>
+I've also created a web scrapper tool for NFL stats and a simple algorithmic trading simulator. Currently, I am taking a Udacity course in Machine Learning. I have self-studied iOS and Web Development.  </div>
+      </div>
+    </section>
 </body>
+<div class = "footer" id = "Contact"> 
+             
+     <div class = "center header"><h1>Designed By<h1></div>
+     <div class = "center"><h2>CHRISTOPHER   |   CHAN <h2></div>
+     <button id = "contactMe">Contact Me</button>
+     <div class = "center contact">AT&T | <a href="cbchan2@illinois.edu" class = "footerLink">CBCHAN2@ILLINOIS.EDU </a>| HOME: SEATTLE, WA</div>
+</div>
+
 </html>
