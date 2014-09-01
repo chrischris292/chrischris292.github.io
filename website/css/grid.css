@@ -700,7 +700,7 @@ width: 120px;
    ========================================================================== */
 
 .workExperience{
-  background-color:#FFF;
+  background-color:#e0f1ec;
   color:black;
   overflow: hidden; 
 }
@@ -1004,30 +1004,8 @@ Custom Components
 
 /* -------------------------------- 
 
-Main components 
-
+Main Components
 -------------------------------- */
-headerTimeLine {
-  height: 200px;
-  line-height: 200px;
-  text-align: center;
-  background: #303e49;
-}
-headerTimeLine h1 {
-  color: white;
-  font-size: 18px;
-  font-size: 1.125rem;
-}
-@media only screen and (min-width: 1170px) {
-  headerTimeLine {
-    height: 300px;
-    line-height: 300px;
-  }
-  headerTimeLine h1 {
-    font-size: 24px;
-    font-size: 1.5rem;
-  }
-}
 
 #cd-timeline {
   position: relative;
@@ -1197,7 +1175,7 @@ headerTimeLine h1 {
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
-  background-color: #336E7B;
+  background-color: white;
 }
 .cd-timeline-content:after {
   content: "";
@@ -1267,7 +1245,7 @@ headerTimeLine h1 {
     top: 24px;
     left: 100%;
     border-color: transparent;
-    border-left-color: #336E7B;
+    border-left-color: white;
   }
   .cd-timeline-content .cd-read-more {
     float: left;
@@ -1288,7 +1266,7 @@ headerTimeLine h1 {
     left: auto;
     right: 100%;
     border-color: transparent;
-    border-right-color: #336E7B;
+    border-right-color: white;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content .cd-read-more {
     float: right;
