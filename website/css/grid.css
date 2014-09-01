@@ -703,6 +703,7 @@ width: 120px;
   background-color:#e0f1ec;
   color:black;
   overflow: hidden; 
+  font-color: #72706d;
 }
 .theIcon{
   font-size:100px;
@@ -1081,14 +1082,14 @@ Main Components
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #c2e4d7;
 }
 .cd-timeline-img.cd-movie {
-  background: #A2DED0;
+  background: #c2e4d7;
 ;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #c2e4d7;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -1183,11 +1184,12 @@ Main Components
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+  color: #999;
+  font-size: 120%; 
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
