@@ -94,7 +94,7 @@ section {
 section:first-of-type { border-top: none; }
 
 @media (min-width: 40rem) {
-  section { padding: 3rem 0; padding-bottom: 5rem; }
+  section { padding: 3rem 0; }
 }
 
 /* Mobile First Grid
@@ -646,10 +646,10 @@ transform: scaleX(-1);
   position:relative;
 }
 .cd-timeline-img.cd-picture {
-  background: #28ceb6;
+  background: #6b635c;
 }
 .cd-timeline-img.cd-movie {
-  background: #28ceb6;
+  background: #6b635c;
 }
 .cd-timeline-img.cd-location {
   background: #3498db;
