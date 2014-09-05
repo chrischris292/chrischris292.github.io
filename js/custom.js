@@ -1,6 +1,5 @@
 
             $(document).ready(function() {
-            $(".topHeader > h1").addClass("animated tada")
             $('.tooltip').tooltipster();
             $('#globe').tooltipster({
                 arrow:true,
