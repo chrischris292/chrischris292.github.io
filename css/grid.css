@@ -755,14 +755,14 @@ transform: scaleX(-1);
     width: 140px;
     }
     .thirdsColumn{
-  width: 310px;
-  height: 310px;
-  display: inline-block;
-  position: relative;
-  text-align: center;
-  margin: 60px;
-  background-color: #03a9f4;
-  border-radius: 10px;
+    width: 310px;
+    height: 310px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 40px;
+    background-color: #03a9f4;
+    border-radius: 10px;
     }
   .subText{
     background-color:#0398dc;
