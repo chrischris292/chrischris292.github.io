@@ -1,15 +1,3 @@
-   
-    time = new Date().getTime();
-$(window).scroll(function(c) {
-    var d = new Date().getTime();
-    var a = $(window).scrollTop();
-    if (d - time > 50 && a < 700) {
-        var b = (a / 300);
-        $(".img").css("opacity", b);
-        time = d
-    }
-});
-
 
             $(document).ready(function() {
             $(".topHeader > h1").addClass("animated tada")
@@ -39,14 +27,28 @@ $(window).scroll(function(c) {
                 position:"bottom",
                 content: $('<div>Mail</div>')
             });
-         $(".thirdsColumn").hover(function(){
+        $(".thirdsColumn").hover(function(){
+            if(!$(this).hasClass("animated"))
             $(this).addClass('animated ' + $(this).data('action'));
         });
         $(".thirdsColumn").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
-            $(this).removeClass('animated ' + $(this).data('action'));
+            $(this).removeClass('animated fadeInDown ' + $(this).data('action'));
         });
-
-
+        $(".topHeader > h1").hover(function(){
+            $(this).addClass('animated tada');
+        });
+        $(".topHeader > h1").bind("animationend webkitAnimationEnd oAnimationEnd MSAnimationEnd",function(){
+            $(this).removeClass('animated tada');
+        });
+        $(".aboutMee > a > .title").click(function(){
+             $('html,body').animate({scrollTop: $(this).offset().top}, 800);
+        })
+        $(".workExperience > a > .title").click(function(){
+             $('html,body').animate({scrollTop: $(this).offset().top}, 800);
+        })
+        $(".projectExperience > a > .title").click(function(){
+             $('html,body').animate({scrollTop: $(this).offset().top}, 800);
+        })
     });
 
 
