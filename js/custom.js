@@ -10,9 +10,10 @@ $(window).scroll(function(c) {
     }
 });
 
+
             $(document).ready(function() {
-                $('.tooltip').tooltipster();
-                            $('#globe').tooltipster({
+            $('.tooltip').tooltipster();
+            $('#globe').tooltipster({
                 arrow:true,
                 position:"bottom",
                 content: $('<div>Welcome Website</div>')
