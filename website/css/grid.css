@@ -19,6 +19,10 @@ html {
   font-weight: 400;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
+    width: 100%;
+  height: 100%;
+  min-width:400px;
+
 }
 
 @media (min-width: 40rem) {
@@ -701,7 +705,7 @@ width: 120px;
   color: #555; 
 }
 .workExperience > .title{
-  background-color:#2980b9;
+  background-color:#2980b9;;
 }
 .projectExperience > .title{
 	background-color:#ffffff;
@@ -723,13 +727,19 @@ width: 120px;
 @media (max-width: 1062px) {
   .title{
   	font-size: 0.9em;
-width: 18em;
-height: 2.5em;
-top: -2.5em;
-line-height: 2.5em;
-margin-bottom: -2.5em;
-margin-left: -9em;
-padding-top: 0.5em;
+	width: 18em;
+	height: 2.5em;
+	top: -3.2em;
+	line-height: 2.5em;
+	margin-bottom: -2.5em;
+	margin-left: -9em;
+	padding-top: 0.5em;
+  }
+    #work-header{
+  	height:600px;
+  }
+    #projects-header{
+  	height:600px;
   }
 }
 .title {
@@ -738,7 +748,6 @@ line-height: 3.25em;
 padding-top: 0.5em;
 height: 3.25em;
 position: absolute;
-top: -3.25em;
 text-align: center;
 text-transform: uppercase;
 display: block;
