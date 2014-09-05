@@ -60,12 +60,6 @@ header {
   .intro { margin: 3rem 0;}
 }
 
-
-header p {
-  margin: 0 auto;
-  color: rgba(255,255,255,0.7);
-}
-
 header a {
   color: rgba(255,255,255,0.9);
   text-decoration: underline;
@@ -955,7 +949,7 @@ Custom Components
 
 Main Components
 -------------------------------- */
-.cd-timeline-content > h2{
+.cd-timeline-content > h3{
   color:black;
 }
 #cd-timeline {
@@ -1123,12 +1117,7 @@ Main Components
   display: table;
   clear: both;
 }
-.cd-timeline-content h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content  {
-  color: #555;
   font-size: 100%; 
 }
 .cd-timeline-content .cd-date{
@@ -1137,10 +1126,6 @@ Main Components
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
-}
-.cd-timeline-content p {
-  margin: 1em 0;
-  line-height: 1.6;
 }
 .cd-timeline-content .cd-read-more {
   float: right;
@@ -1168,13 +1153,8 @@ Main Components
   border-right: 7px solid white;
 }
 @media only screen and (min-width: 768px) {
-  .cd-timeline-content h2 {
-    font-size: 20px;
-    font-size: 1.25rem;
-  }
   .cd-timeline-content p {
     margin: auto;
-    font-size: 1rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
