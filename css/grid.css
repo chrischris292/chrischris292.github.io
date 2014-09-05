@@ -77,6 +77,10 @@ header a:hover { text-decoration: none; }
 
 }
 
+.additionalText{
+  padding-top:3rem;
+}
+
 /* Section
    ========================================================================== */
 
@@ -90,7 +94,9 @@ section:first-of-type { border-top: none; }
 @media (min-width: 40rem) {
   section { padding: 3rem 0; padding-bottom: 5rem; }
 }
-
+@media (max-width: 40rem) {
+  section { padding: 3rem 0; margin-bottom: 7rem; }
+}
 /* Mobile First Grid
    ========================================================================== */
 
