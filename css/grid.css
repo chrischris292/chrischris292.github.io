@@ -1155,7 +1155,7 @@ Main Components
 .cd-timeline-content .cd-date {
   float: left;
   padding: .8em 0;
-  opacity: .7;
+  opacity: 1;
 }
 .cd-timeline-content::before {
   content: '';
