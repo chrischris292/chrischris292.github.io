@@ -385,7 +385,7 @@ img {
 /* Clearfix by Nicolas Gallagher
    ========================================================================== */
 .clearfix { 
-	overflow:hidden;
+  overflow:hidden;
 }
 
 /* Id's
@@ -555,50 +555,50 @@ width: 120px;
   color: #555; 
 }
 .workExperience >a> .title{
-  background-color:#2980b9;;
+  background-color:#5dc62c;;
 }
 .projectExperience >a> .title{
-	background-color:#ffffff;
-	color: #555; 
+  background-color:#ffffff;
+  color: #555; 
 
 }
 .hide{
-	visibility: hidden;
+  visibility: hidden;
 }
 @media (min-width: 1062px) {
   .title{
     font-size: 0.9em;
-	width: 25em;
-	height: 3.25em;
-	top: -3.25em;
-	line-height: 3.25em;
-	margin-bottom: -3.25em;
-	margin-left: -12.5em;
-	padding-top: 0.5em;
+  width: 25em;
+  height: 3.25em;
+  top: -3.25em;
+  line-height: 3.25em;
+  margin-bottom: -3.25em;
+  margin-left: -12.5em;
+  padding-top: 0.5em;
   }
   .cd-timeline-img.cd-picture > img{
-  		height:50px;
+      height:50px;
   }
 }
 @media (max-width: 1062px) {
   .title{
-  	font-size: 0.9em;
-	width: 18em;
-	height: 2.5em;
-	top: -3.2em;
-	line-height: 2.5em;
-	margin-bottom: -2.5em;
-	margin-left: -9em;
-	padding-top: 0.5em;
+    font-size: 0.9em;
+  width: 18em;
+  height: 2.5em;
+  top: -3.2em;
+  line-height: 2.5em;
+  margin-bottom: -2.5em;
+  margin-left: -9em;
+  padding-top: 0.5em;
   }
     #work-header{
-  	height:600px;
+    height:600px;
   }
     #projects-header{
-  	height:600px;
+    height:600px;
   }
    .cd-timeline-img.cd-picture > img{
-  		height:500px;
+      height:500px;
   }
 }
 .title {
@@ -755,15 +755,15 @@ transform: scaleX(-1);
     width: 140px;
     }
     .thirdsColumn{
-	width: 310px;
-	height: 310px;
-	display: inline-block;
-	position: relative;
-	text-align: center;
-	margin: 60px;
-	background-color: #03a9f4;
-	border-radius: 10px;
-  	}
+  width: 310px;
+  height: 310px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  margin: 60px;
+  background-color: #03a9f4;
+  border-radius: 10px;
+    }
   .subText{
     background-color:#0398dc;
     position: absolute;
@@ -956,7 +956,7 @@ Custom Components
 Main Components
 -------------------------------- */
 .cd-timeline-content > h2{
-	color:black;
+  color:black;
 }
 #cd-timeline {
   position: relative;
@@ -1132,8 +1132,8 @@ Main Components
   font-size: 100%; 
 }
 .cd-timeline-content .cd-date{
-	font-size:120%;
-	color:white;
+  font-size:120%;
+  color:white;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
