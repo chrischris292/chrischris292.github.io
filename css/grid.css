@@ -555,7 +555,7 @@ width: 120px;
   color: #555; 
 }
 .workExperience >a> .title{
-  background-color:#28ceb6;;
+  background-color:#43d1bd;;
 }
 .projectExperience >a> .title{
   background-color:#ffffff;
@@ -640,16 +640,16 @@ background: url('http://html5up.net/uploads/demos/escape-velocity/css/images/sha
 transform: scaleX(-1);
 }
 .workExperience{
-  background-color:#2980b9;
+  background-color:#43d1bd;
   color:black;
   color: white;
   position:relative;
 }
 .cd-timeline-img.cd-picture {
-  background: #3498db;
+  background: #28ceb6;
 }
 .cd-timeline-img.cd-movie {
-  background: #3498db;
+  background: #28ceb6;
 }
 .cd-timeline-img.cd-location {
   background: #3498db;
