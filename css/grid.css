@@ -444,7 +444,7 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image:url("http://cdn4.psdvault.com/img/2013/09/1-fill.jpg");
+  background-image:url("../images/fill.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -621,7 +621,7 @@ border-top-left-radius: 15px;
 .title:before {
 content: '';
 position: absolute;
-background: url('http://html5up.net/uploads/demos/escape-velocity/css/images/shadow.png');
+background: url('../images/shadow.png');
 bottom: -38px;
 left: -35px;
 width: 35px;
@@ -634,7 +634,7 @@ bottom: -38px;
 right: -35px;
 width: 35px;
 height: 38px;
-background: url('http://html5up.net/uploads/demos/escape-velocity/css/images/shadow.png');
+background: url('../images/shadow.png');
 -moz-transform: scaleX(-1);
 -webkit-transform: scaleX(-1);
 -o-transform: scaleX(-1);
