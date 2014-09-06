@@ -1207,6 +1207,7 @@ Main Components
 @media only screen and (min-width: 768px) {
   .cd-timeline-content p {
     margin: auto;
+    margin-bottom:.5rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
