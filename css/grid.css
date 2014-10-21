@@ -147,7 +147,7 @@ h4{
   margin-bottom:1.5rem;
 }
 h5{
-  font-size: .8rem;
+  font-size: .7rem;
   margin-bottom:1.5rem;
 }
 
@@ -776,6 +776,7 @@ transform: scaleX(-1);
     color:#fff;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    text-align:center;
   }
   .subText > h4 {
     margin-bottom:0;
@@ -996,7 +997,9 @@ Custom Components
 }
 
 }
-
+.subThirds{
+  margin-bottom:1.5rem;
+}
 /* -------------------------------- 
 
 Main Components
