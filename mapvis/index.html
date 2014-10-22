@@ -183,6 +183,9 @@ nav li a:hover:before{
 	height: 750px;
   }
   </style>
+    <link href="jquery.remodal.css" rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
 </head>
 <nav>
   <div class="icon fi-list"></div>
@@ -190,14 +193,18 @@ nav li a:hover:before{
   <header><a href="#">Map Viz</a></header>
   
   <ul>
-    <li><a href="#" id = "WorldSeries">World Series</a></li>
-    <li><a href="#" id = "WorldCup">FIFA World Cup</a></li>
+    <li><a href="#" id = "WorldSeries">World Series </a></li>
+    <li><a href="#" id = "WorldCup">FIFA World Cup </a></li>
+	<li><a href="#" id = "NBA">The NBA Finals </a></li>
+	<li><a href="#" id = "NFL">Super Bowl </a></li>
+	<li><a href="#help">Help</a></li>
+
   </ul>
 </nav>
 
 <div id="content">
   <div id="wrap">
- 	<h1>World Series Map Visualization</h1>
+ 	<h1>World Series Visualization</h1>
   <div id="map_election"></div>
   </div>
 </div>
@@ -205,14 +212,25 @@ nav li a:hover:before{
 </body>
 
 
-
+<div class="remodal" data-remodal-id="help">
+    <h1>Help</h1>
+	<br/>
+    <p>
+      This application shows map data for a variety of trending topics.<br/> It takes the percentage of google searches for 
+	  each state and, using an algorithm, calculates an opacity. <br/>The higher the opacity, the higher the percentage of google
+	  searches for that state. 
+    </p>
+    <br>
+    <a class="remodal-confirm" href="#">OK</a>
+</div>
 
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
 <!-- I recommend you host this file on your own, since this will change without warning -->
 <script src="datamap.js"></script>
+<script src="jquery.remodal.js"></script>
+
 <script src="controller.js"></script>
