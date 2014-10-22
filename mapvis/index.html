@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <style> 
+
+/* External CSS */
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+
+@import url('http://tyy.li/foundation-icons/foundation-icons.css');
+
+
+/* Simple reset */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+
+/* Basic elements */
+
+body{
+  background: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+/* Navigation */
+
+nav{
+  width: 300px;
+  height: 100%;
+  background: #333;
+  position: fixed;
+  top: 0; left: -236px;
+  z-index: 2;
+  transition: left .7s;
+  -webkit-transition: left .7s;
+}
+nav:hover{
+  left: 0;
+}
+
+nav:hover ~ #content{
+  opacity: .3;
+}
+
+nav a, nav a:hover{
+  text-decoration: none;
+}
+
+
+/* Navigation  -- Icon */
+
+nav .icon{
+  width: 32px;
+  height: 32px;
+  float: right;
+  margin: 20px 16px 0 0;
+  font-size: 36px;
+  text-align: center;
+  line-height: 32px;
+  color: rgba(0,0,0,.3);
+  transition: opacity .7s;
+  -webkit-transition: opacity .7s;
+}
+
+nav:hover .icon{
+  opacity: 0;
+}
+
+
+/* Navigation -- Header */
+
+nav header{
+  margin: 40px 20px 30px;
+}
+
+nav header a{
+  font-size: 2.7em;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: rgba(240,240,240,.7);
+}
+
+nav header a:hover{
+  color: #eee;
+}
+
+
+/* Navigation -- Links */
+
+nav ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+nav li a{
+  display: block;
+  border-left: 3px solid transparent;
+  padding: 16px 20px;
+  font-weight: 600;
+  	color: rgba(200,200,200,.5);
+}
+
+nav li a:hover{
+  background: rgba(0,0,0,.1);
+  border-color: #1b9;
+  color: #eee;
+}
+
+nav li a:before{
+  content: '';
+  width: 0;
+  height: 0;
+  display: inline-block;
+  margin: 3px 0 0 -20px;
+  border: 8px solid transparent;
+}
+
+nav li a:hover:before{
+  border-left-color: #1b9;
+}
+
+
+/* Content */
+
+#content{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0; left: 0;
+  z-index: 0;
+  overflow: auto;
+  transition: opacity .7s;
+  -webkit-transition: opacity .7s;
+}
+
+#content #wrap{
+  width: 900px;
+  min-height: 100%;
+  background: #fff;
+  position: absolute;
+  top: 0; left: 50%;
+  margin-left: -450px;
+  padding: 30px 20px;
+}
+
+#content h1{
+  font-size: 3.2em;
+  font-weight: 300;
+  color: #444;
+  text-align:center;
+	margin-left:160px;
+}
+
+#content p{
+  padding: 4px 0;
+  line-height: 1.5em;
+}
+
+@media screen and (max-width: 1000px){
+  #content{
+    background: #fff;
+  }
+  
+  #content #wrap{
+    width: 90%;
+    left: auto;
+    margin-left: 10%;
+  }
+}
+  body{
+  	height:100%;
+  	width:100%;
+
+  }
+  #map_election{
+  	position: relative;
+	margin: 0 auto;
+	margin-top:-100px;
+	width: 1000px;
+	height: 750px;
+  }
+  </style>
+</head>
+<nav>
+  <div class="icon fi-list"></div>
+  
+  <header><a href="#">Header</a></header>
+  
+  <ul>
+    <li><a href="#">First</a></li>
+    <li><a href="#">Second</a></li>
+  </ul>
+</nav>
+
+<div id="content">
+  <div id="wrap">
+ 	<h1>This vs That</h1>
+  <div id="map_election"></div>
+  </div>
+</div>
+<body>
+</body>
+
+
+
+
+
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+<!-- I recommend you host this file on your own, since this will change without warning -->
+<script src="https://raw.githubusercontent.com/markmarkoh/datamaps/v0.2.10/dist/datamaps.usa.min.js"></script>
+<script src="controller.js"></script>
