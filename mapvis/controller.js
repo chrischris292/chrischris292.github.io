@@ -60,7 +60,7 @@ $(location).empty();
 	  geographyConfig: {
 		highlightBorderColor: '#bada55',
 	   popupTemplate: function(geography, dataParam) {
-		  return '<div class="hoverinfo">' + geography.properties.name + ' Notorious BIG ' +  dataParam.electoralVotes + ' '
+		  return '<div class="hoverinfo">' + geography.properties.name + ' Percentage:  ' +  dataParam.electoralVotes + '%'
 		},
 		highlightBorderWidth: 3
 	  },
