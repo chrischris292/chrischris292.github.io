@@ -81,6 +81,26 @@ $("#NFL").click(function(){
 	mapInit(data1, fills1, document.getElementById('map_election'));
 });
 
+
+
+$("#StanleyCup").click(function(){
+	//reinitialize everything...
+	var fills1 = {
+		defaultFill: 'rgba(44, 62, 80, .5)'
+	};  
+	var data1={AZ:{fillKey:"Republican",electoralVotes:5},CO:{fillKey:"Light Democrat",electoralVotes:5},DE:{fillKey:"Democrat",electoralVotes:32},FL:{fillKey:"UNDECIDED",electoralVotes:29},GA:{fillKey:"Republican",electoralVotes:32},HI:{fillKey:"Democrat",electoralVotes:32},ID:{fillKey:"Republican",electoralVotes:32},IL:{fillKey:"Democrat",electoralVotes:32},IN:{fillKey:"Republican",electoralVotes:11},IA:{fillKey:"Light Democrat",electoralVotes:11},KS:{fillKey:"Republican",electoralVotes:32},KY:{fillKey:"Republican",electoralVotes:32},LA:{fillKey:"Republican",electoralVotes:32},MD:{fillKey:"Democrat",electoralVotes:32},ME:{fillKey:"california",electoralVotes:32},MA:{fillKey:"Democrat",electoralVotes:32},MN:{fillKey:"Democrat",electoralVotes:32},MI:{fillKey:"Democrat",electoralVotes:32},MS:{fillKey:"Republican",electoralVotes:32},MO:{fillKey:"Republican",electoralVotes:13},MT:{fillKey:"Republican",electoralVotes:32},NC:{fillKey:"Republican",electoralVotes:32},NE:{fillKey:"Republican",electoralVotes:32},NV:{fillKey:" Republican",electoralVotes:32},NH:{fillKey:"Light Democrat",electoralVotes:32},NJ:{fillKey:"california",electoralVotes:32},NY:{fillKey:"california",electoralVotes:90},ND:{fillKey:"Republican",electoralVotes:32},NM:{fillKey:"Democrat",electoralVotes:32},OH:{fillKey:"california",electoralVotes:32},OK:{fillKey:"Republican",electoralVotes:32},OR:{fillKey:" Republican",electoralVotes:32},PA:{fillKey:"california",electoralVotes:32},RI:{fillKey:"Democrat",electoralVotes:32},SC:{fillKey:"Republican",electoralVotes:32},SD:{fillKey:"Republican",electoralVotes:32},TN:{fillKey:"Republican",electoralVotes:32},TX:{fillKey:"Republican",electoralVotes:32},UT:{fillKey:"Republican",electoralVotes:32},WI:{fillKey:"Democrat",electoralVotes:32},VA:{fillKey:"Light Democrat",electoralVotes:32},VT:{fillKey:"california",electoralVotes:32},WA:{fillKey:"Washington",electoralVotes:10},WV:{fillKey:"Republican",electoralVotes:32},WY:{fillKey:"Republican",electoralVotes:32},CA:{fillKey:"Republican",electoralVotes:65},CT:{fill:"california",electoralVotes:32},AK:{fillKey:"Republican",electoralVotes:32},AR:{fillKey:"Republican",electoralVotes:32},AL:{fillKey:"Republican",electoralVotes:32}}
+	//ONLY VARIABLE NEEDED TO BE CHANGED HERE AT GOOGLEDATA1...
+	var googleData1 = [["regionCode","name","Search volume index"],["US-MA","Massachusetts",100],["US-IL","Illinois",93],["US-NH","New Hampshire",88],["US-PA","Pennsylvania",71],["US-VT","Vermont",67],["US-MI","Michigan",66],["US-RI","Rhode Island",65],["US-ME","Maine",64],["US-MN","Minnesota",58],["US-NY","New York",54],["US-ND","North Dakota",51],["US-NJ","New Jersey",51],["US-CO","Colorado",46],["US-CT","Connecticut",44],["US-DC","District of Columbia",42],["US-AK","Alaska",40],["US-CA","California",37],["US-MO","Missouri",36],["US-DE","Delaware",36],["US-WI","Wisconsin",35],["US-MD","Maryland",33],["US-WA","Washington",32],["US-NV","Nevada",31],["US-IN","Indiana",31],["US-OH","Ohio",30],["US-WY","Wyoming",30],["US-MT","Montana",30],["US-AZ","Arizona",29],["US-NC","North Carolina",29],["US-FL","Florida",28],["US-VA","Virginia",27],["US-WV","West Virginia",26],["US-IA","Iowa",26],["US-NE","Nebraska",25],["US-TN","Tennessee",22],["US-SD","South Dakota",22],["US-ID","Idaho",21],["US-SC","South Carolina",21],["US-TX","Texas",20],["US-KS","Kansas",20],["US-UT","Utah",20],["US-GA","Georgia",19],["US-NM","New Mexico",19],["US-HI","Hawaii",17],["US-OR","Oregon",17],["US-KY","Kentucky",16],["US-OK","Oklahoma",15],["US-LA","Louisiana",13],["US-AL","Alabama",13],["US-MS","Mississippi",12],["US-AR","Arkansas",12]];
+	sanitizeData(googleData1);
+
+	//CHANGE TITLE HERE.
+	$("#wrap > h1").text("Stanley Cup")
+	createMapDataArray(data1,fills1, googleData1)
+	mapInit(data1, fills1, document.getElementById('map_election'));
+});
+
+
+
 //Helper functions
 //Creates map
 function mapInit(dataInput, fillInput, location){
@@ -121,7 +141,7 @@ function calculateOpacity(input)
 {
   var percentage = .1+  (input*.9)/100;
 
-  var string = "rgba(169, 192, 222, "
+  var string = "rgba(44, 62, 80,  "
   string = string + percentage + ")";
   return string;
 }
