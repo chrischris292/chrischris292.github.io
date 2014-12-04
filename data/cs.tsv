@@ -1,0 +1,38 @@
+Sentiment Analysis Online Tool								
+http://text-processing.com/demo/sentiment/								
+								
+Visualization, Machine Learning, Security								
+10 each for 30 total								
+COMPUTER SCIENCE								
+NAME	CATEGORY	AUTHORS	LOCATION	NEUTRAL	POLAR	POLAR POS	POLAR NEG	LINK
+Unsupervised and Supervised Machine Learning in User Modeling for Intelligent Learning Environments 	Machine Learning	Saleema Amershi	University of British Columbia	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1216295.1216315&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Toward harnessing user feedback for machine learning	Machine Learning	Simone Stumpf	Oregon State University	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1216295.1216316&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Interactive machine learning	Machine Learning	Jerry Allen Fails	Brigham Young University	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=604045.604056&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Real-Time Collaborative Filtering Using Extreme Learning Machine	Machine Learning	Wanyu Deng	Xian Jiao Tong University	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1632190.1632388&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+User interface adaptation based on user feedback and machine learning	Machine Learning	Nesrine Mezhoudi 	Université catholique de Louvain 	0.9	0.1			http://dl.acm.org/citation.cfm?id=2451176.2451184&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Supporting Customer Searches in E-marketplaces by Means of Fuzzy Logic-Based Machine Learning	Machine Learning	J. Albusac	Universidad de Castilla-La Mancha	0.8	0.2			http://dl.acm.org/citation.cfm?id=2451176.2451184&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+An ontology-based interface for machine learning	Machine Learning	Mathias Bauer	German Research Center for Artificial Intelligence (DFKI) 	0.5	0.5	0.6	0.4	http://dl.acm.org/citation.cfm?id=1040830.1040911&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Designing social choice mechanisms using machine learning	Machine Learning	Lirong Xia	Harvard University	0.5	0.5			http://dl.acm.org/citation.cfm?id=2484920.2484995&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Ranking Web Pages Using Machine Learning Approaches	Machine Learning	Sweah Liang Yong	University of Wollongong	0.2	0.8	0.8	0.2	http://dl.acm.org/citation.cfm?id=1487207.1487317&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+A comparison of machine learning techniques for modeling human-robot interaction with children with autism	Machine Learning	Elaine Short	University of Southern California	0.8	0.2			http://dl.acm.org/citation.cfm?id=1957656.1957756&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
+Storytelling: Next Step for Visualization	Visualization	Robert Kosara	Tableu Software	0.2	0.8	0.6	0.4	http://kosara.net/papers/2013/Kosara_Computer_2013.pdf
+Social Mirrors as Social Signals: Transforming Audio into Graphics	Visualization	Karrie Karahalios	University of Illinois	0.2	0.8	0.6	0.4	http://social.cs.uiuc.edu/papers/pdfs/g5kar.pdf
+Visualizing Real-Time Language-Based Feedback on Teamwork Behavior in Computer-Mediated Groups	Visualization	Gilly Leshed	Cornell University	0.2	0.8	0.6	0.4	http://leshed.comm.cornell.edu/pubs/paper0382-leshed.pdf
+The kinetic typography engine: an extensible system for animating expressive text	Visualization	Johnny Lee	Carnegie Mellon University	0.2	0.8	0.7	0.3	http://dl.acm.org/citation.cfm?id=571997
+Opinion mining and sentiment analysis	Visualization	Bo Pang	Cornell University	0.2	0.8	0.6	0.4	http://www.cs.cornell.edu/home/llee/omsa/omsa.Pdf
+In Situ Speech Visualization in Real-Time Interactive Installation and Performance	Visualization	Golan Levin	Carnegie Mellon University	0.2	0.8	0.8	0.2	http://tmema.org/messa/npar/messa_NPAR_2004_150dpi.pdf
+What Makes a Visualization Memorable	Visualization	Michelle A. Borkin	Massachusetts Institute of Technology	0.2	0.8	0.6	0.4	http://cvcl.mit.edu/papers/Borkin_etal_MemorableVisualization_TVCG2013.pdf
+The Benefits of Facebook ‘‘Friends:’’ Social Capital and College Students’ Use of Online Social Network Sites	Visualization	Nicole Ellison	Michigan State University	0.9	0.1			http://onlinelibrary.wiley.com/store/10.1111/j.1083-6101.2007.00367.x/asset/j.1083-6101.2007.00367.x.pdf?v=1&t=i39bvhey&s=9422eda7ae5ee95b1b586ce7a0eca28807579707
+MUSE: Reviving Memories Using Email Archives	Visualization	Sudheendra Hangal	Stanford University	0.5	0.5			http://vis.stanford.edu/files/2011-Muse-UIST.pdf
+Measuring the Leakage of Onion at the Root: A measurement of Tor's .onion pseudo-TLD in the global domain name system	Security	Matthew Thomas	Verisign Lab	0.8	0.2			http://dl.acm.org/citation.cfm?id=2665951&CFID=460353017&CFTOKEN=87324358
+Citizen Electronic Identities using TPM 2.0	Security	Thomas Nyman	Aalto University and University of Helsinki	0.9	0.1			http://dl.acm.org/citation.cfm?id=2666146&CFID=460353017&CFTOKEN=87324358
+Information revelation and privacy in online social networks	Security	Ralph Gross	Carnegie Mellon University	0.9	0.1			http://dl.acm.org/citation.cfm?id=1102214&CFID=460353017&CFTOKEN=87324358
+Founding Digital Currency on Secure Computation	Security	Karim El Defrawy	HRL Laboratories	0.9	0.1			http://dl.acm.org/citation.cfm?id=2660293&CFID=460353017&CFTOKEN=87324358
+A survey of mobile malware in the wild	Security	Adrienne Porter Felt	University of California Berkeley	0.9	0.1			http://dl.acm.org/citation.cfm?id=2046618&CFID=460353017&CFTOKEN=87324358
+The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)	Security	Hovav Shacham	University of California San Diego	0.5	0.5			http://dl.acm.org/citation.cfm?id=1315313&CFID=460353017&CFTOKEN=87324358
+On the effectiveness of address-space randomization	Security	Horav Shacham	Stanford University	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1030124&CFID=460353017&CFTOKEN=87324358
+Controlling data in the cloud: outsourcing computation without outsourcing control	Security	Richard Chow	PARC	0.6	0.4			http://dl.acm.org/citation.cfm?id=1655020&CFID=460353017&CFTOKEN=87324358
+Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World	Security	Ahmed M. Azab	Samsung Research America	0.8	0.2			http://dl.acm.org/citation.cfm?id=2660350&CFID=460353017&CFTOKEN=87324358
+Characterizing hypervisor vulnerabilities in cloud computing servers	Security	Diego Perez-Botero	Princeton University	0.9	0.1			http://dl.acm.org/citation.cfm?id=2484406&CFID=460353017&CFTOKEN=87324358
+					14.3			
+					0.4931034483			
