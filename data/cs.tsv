@@ -1,9 +1,4 @@
-Sentiment Analysis Online Tool								
-http://text-processing.com/demo/sentiment/								
-								
-Visualization, Machine Learning, Security								
-10 each for 30 total								
-COMPUTER SCIENCE								
+						
 NAME	CATEGORY	AUTHORS	LOCATION	NEUTRAL	POLAR	POLAR POS	POLAR NEG	LINK
 Unsupervised and Supervised Machine Learning in User Modeling for Intelligent Learning Environments 	Machine Learning	Saleema Amershi	University of British Columbia	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1216295.1216315&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
 Toward harnessing user feedback for machine learning	Machine Learning	Simone Stumpf	Oregon State University	0.2	0.8	0.6	0.4	http://dl.acm.org/citation.cfm?id=1216295.1216316&coll=DL&dl=GUIDE&CFID=460353017&CFTOKEN=87324358
@@ -34,5 +29,5 @@ On the effectiveness of address-space randomization	Security	Horav Shacham	Stanf
 Controlling data in the cloud: outsourcing computation without outsourcing control	Security	Richard Chow	PARC	0.6	0.4			http://dl.acm.org/citation.cfm?id=1655020&CFID=460353017&CFTOKEN=87324358
 Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World	Security	Ahmed M. Azab	Samsung Research America	0.8	0.2			http://dl.acm.org/citation.cfm?id=2660350&CFID=460353017&CFTOKEN=87324358
 Characterizing hypervisor vulnerabilities in cloud computing servers	Security	Diego Perez-Botero	Princeton University	0.9	0.1			http://dl.acm.org/citation.cfm?id=2484406&CFID=460353017&CFTOKEN=87324358
-					14.3			
-					0.4931034483			
+					14.3
+					0.4931034483
