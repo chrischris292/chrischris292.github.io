@@ -85,7 +85,7 @@ section:first-of-type { border-top: none; }
   section { padding: 3rem 0; padding-bottom: 5rem; }
 }
 @media (max-width: 40rem) {
-  section { padding: 3rem 0; margin-bottom: 7rem; }
+  section { padding: 3rem 0;}
 }
 
 /* Header
@@ -129,7 +129,6 @@ section:first-of-type { border-top: none; }
   filter: url(grayscale.svg); /* Firefox 4+ */
   filter: gray; /* IE 6-9 */;
     -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
-
 }
 .introduction < a {
     text-transform: none
@@ -144,6 +143,9 @@ section:first-of-type { border-top: none; }
 }
 .topHeader > h1{
   margin-bottom:2rem;
+}
+.flaticon-bulb11:hover{
+  color:yellow;
 }
 @media (min-width: 40rem) {
     .topHeader > h1{
@@ -181,6 +183,12 @@ text-align:center;
 }
 .aboutMe{
   padding:0;
+}
+@media (max-width: 40rem) {
+    .aboutMe{
+      margin-bottom:7rem;
+    }
+
 }
 .me{
   max-height:1000px;
@@ -221,6 +229,7 @@ text-align:center;
 }
 .description{
     font-weight:300;
+    text-align:left;
 }
 @media (max-width: 1050px) {
   .column-third{
@@ -281,11 +290,45 @@ text-align:center;
   font-size:7em;
   color:#7B7B7B;
   }
-
+.courses > ul{
+  text-align:left;
+}
 @media (max-width: 1050px) {
 }
 @media (min-width: 1050px) {
 }
+
+/* Projects
+   ========================================================================== */
+.row{
+  content: "";
+  display: table;
+  clear: both; 
+  width:100%;
+}
+.project{
+    min-height:300px;
+    min-width:100%;
+}
+.projects{
+  padding:0;
+}
+.skills{
+  padding-top:3em;
+padding-bottom:10em;
+}
+/* Footer
+   ========================================================================== */
+
+.footer{
+  display: block;
+  background-color: rgb(54, 54, 54);
+  padding: 50px 0 20px 0;
+  color: white;
+}
+
+
+
 /* Mobile First Grid
    ========================================================================== */
 
@@ -306,7 +349,31 @@ text-align:center;
   .column.full { width: 100%; }
   .column.two-thirds { width: 66.7%; }
   .column.half { width: 46%; }
-  .column.third { width: 33.2%; }
+  .column.third { width: 33.3%; }
+  .column.third-alt{width:33.2%;}
   .column.fourth { width: 24.95%; }
   .column.flow-opposite { float: right; }
+}
+
+
+
+/* PhotoGrid
+   ========================================================================== */
+
+.photo-row {
+ -moz-column-width: 30em;
+ -webkit-column-width: 30em;
+ -moz-column-gap: 0em;
+ -webkit-column-gap:0em; 
+  
+}
+
+.item {
+ display: inline-block;
+ padding:  0rem;
+ width:  100%; 
+ margin:0;
+}
+.item > img{
+  min-width:100%;
 }
