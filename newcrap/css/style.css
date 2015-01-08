@@ -100,7 +100,6 @@ section:first-of-type { border-top: none; }
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size:auto 100%;
   background-size: cover;
   z-index:-10;
 }
