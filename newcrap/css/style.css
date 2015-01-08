@@ -414,8 +414,8 @@ padding-bottom:10em;
    ========================================================================== */
 
 .photo-row {
- -moz-column-width: 30em;
- -webkit-column-width: 30em;
+ -moz-column-width: 25em;
+ -webkit-column-width: 25em;
  -moz-column-gap: 0em;
  -webkit-column-gap:0em; 
   margin-bottom:15em;
