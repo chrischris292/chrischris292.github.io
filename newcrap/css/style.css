@@ -118,6 +118,8 @@ section:first-of-type { border-top: none; }
   filter: grayscale(0%);
   filter: url(grayscale.svg); /* Firefox 4+ */
   filter: gray; /* IE 6-9 */;
+  transition: 0.5s;
+-webkit-transition: 0.5s;
 }
 .me{
     -webkit-filter: grayscale(100%);
@@ -187,10 +189,6 @@ text-align:center;
     .aboutMe{
       margin-bottom:7rem;
     }
-    .description > h4{
-  text-align:center;
-}
-
 }
 .me{
   max-height:1000px;
@@ -248,6 +246,14 @@ text-align:center;
     padding-left:5%;
     padding-right:5%;
   }
+
+  section.aboutMe > .row {
+    margin-bottom:30px;
+  }
+      .description > h4{
+  text-align:center;
+}
+
 }
 
 @media (min-width: 1050px) {
@@ -255,6 +261,7 @@ text-align:center;
       padding-left:5%;
   }
   #aboutTemp > h1{
+    padding-top:1rem;
   }
   .column-third{
     width: 33.2%; 
@@ -263,7 +270,6 @@ text-align:center;
   .column-two-thirds{
     width: 66.7%; 
     float:left;
-    padding-top:40px;
   }
 }
 /* skills
@@ -467,7 +473,8 @@ padding-bottom:10em;
   background: -o-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
   background: linear-gradient(rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.45) 60%,rgba(0,0,0,0.65) 100%);
   transition: opacity 0.5s ease-out;
-
+transition: 0.5s;
+-webkit-transition: 0.5s;
 
 }
 .item > img{
