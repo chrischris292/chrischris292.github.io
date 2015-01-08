@@ -188,6 +188,9 @@ text-align:center;
     .aboutMe{
       margin-bottom:7rem;
     }
+    .description > h4{
+  text-align:center;
+}
 
 }
 .me{
@@ -355,8 +358,57 @@ padding-bottom:10em;
   .column.flow-opposite { float: right; }
 }
 
+/* Timeline Work Section
+   ========================================================================== */
+.clearfix{
+  display: table;
+  content: "";
+  zoom: 1;
+}
+.timelineContainer{
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 46px;
+  margin-left: 12px;
+  border-left: 1px solid #b3b3b1;
+}
+.dot{
+  webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background: #333636;
+  width: 7px;
+  height: 7px;
+  float: left;
+  margin-left: -3px;
+  margin-top: -1px;
+  background-size: 100% 100%;
+  border-color: #333636;
+}
+.timelineContainer{
+  clear: left;
+  line-height: 1.4;
+  margin-left:0;
+  float: left;
+  display: inline;
+  margin-right: 10px;
+  text-align:left;
+}
+.work{
+    padding-left:60px;
 
-
+}
+.workLogo{
+  padding-left:60px;
+  width:50%;
+}
+.work > h2{
+  font-size: 1.5rem;
+  margin-bottom:1rem;
+}
+.work > h2.workTitle{
+  margin-bottom:0rem;
+}
 /* PhotoGrid
    ========================================================================== */
 
@@ -365,7 +417,7 @@ padding-bottom:10em;
  -webkit-column-width: 30em;
  -moz-column-gap: 0em;
  -webkit-column-gap:0em; 
-  
+  margin-bottom:15em;
 }
 
 .item {
@@ -374,6 +426,18 @@ padding-bottom:10em;
  width:  100%; 
  margin:0;
 }
+.item:hover{
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(60%, rgba(0,0,0,0.45)), color-stop(100%, rgba(0,0,0,0.65)));
+  background: -webkit-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
+  background: -moz-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
+  background: -o-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
+  background: linear-gradient(rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.45) 60%,rgba(0,0,0,0.65) 100%);
+  transition: opacity 0.5s ease-out;
+
+
+}
 .item > img{
   min-width:100%;
+  z-index: -1;
+  position:relative;
 }
