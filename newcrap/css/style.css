@@ -405,7 +405,7 @@ margin-top: -9px;
 }
 .workLogo{
   padding-left:60px;
-  width:28%;
+  width:35%;
   float:right;
 }
 .work > h2{
@@ -415,6 +415,16 @@ margin-top: -9px;
 .work > h2.workTitle{
   margin-bottom:0rem;
 }
+@media only screen and (max-width: 1024px) {
+  .workLogo{
+    display: none;
+  }
+  .column.half{
+    width:100%;
+    padding-right:5%;
+  }
+}
+
 /* PhotoGrid
    ========================================================================== */
 
@@ -465,17 +475,34 @@ margin-top: -9px;
  padding:  0rem;
  width:  100%; 
  margin:0;
+    background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(60%, rgba(0,0,0,0)), color-stop(100%, rgba(0,0,0,0.3)));
+  background: -webkit-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0.3) 100%);
+  background: -moz-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.3) 100%);
+  background: -o-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 60%, rgba(0,0,0,0.3) 100%);
+  background: linear-gradient(rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 60%,rgba(0,0,0,0.3) 100%);
+  transition: opacity 1.5s ease-out;
+transition: 1.5s;
+-webkit-transition: 1.5s;
+
+  transition: opacity 1.5s ease-out;
+transition: 1.5s;
+-webkit-transition: 1.5s;
+
 }
 .item:hover{
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(60%, rgba(0,0,0,0.45)), color-stop(100%, rgba(0,0,0,0.65)));
+   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0,0,0,0.4)), color-stop(60%, rgba(0,0,0,0.45)), color-stop(100%, rgba(0,0,0,0.65)));
   background: -webkit-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
   background: -moz-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
   background: -o-linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 60%, rgba(0,0,0,0.65) 100%);
   background: linear-gradient(rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.45) 60%,rgba(0,0,0,0.65) 100%);
-  transition: opacity 0.5s ease-out;
-transition: 0.5s;
--webkit-transition: 0.5s;
+  transition: opacity 1.5s ease-out;
+transition: 1.5s;
+-webkit-transition: 1.5s;
 
+
+}
+.item > h1{
+  
 }
 .item > img{
   min-width:100%;
