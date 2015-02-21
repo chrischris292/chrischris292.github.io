@@ -427,16 +427,16 @@ padding-left:10%;
 /* PhotoGrid
    ========================================================================== */
   .projects{
-background-color: rgb(245, 245, 243);
+  background-color: rgb(245, 245, 243);
   color:black;
   padding-top:5%;
   }
 .grid > figure.descriptionBlock{
-  background-color: white;
   word-spacing: -0.15em;
   font-weight: 300;
   text-transform: uppercase;
   cursor:auto;
+  background-color: #363636;
 }
 .descriptionBlock img { 
   z-index:-1;
