@@ -374,8 +374,10 @@ padding-bottom:10em;
   position: relative;
   margin-bottom: 0;
   padding-bottom: 46px;
-  margin-left: 12px;
   border-left: 1px solid #b3b3b1;
+}
+.work > h4{
+  padding-right:10%;
 }
 .dot{
   webkit-border-radius: 10px;
