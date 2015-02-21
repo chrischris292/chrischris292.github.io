@@ -490,6 +490,13 @@ figure > h2{
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
 }
+#stocks:hover img {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+}
 #game:hover img {
     -webkit-transform:scale(1.25); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
@@ -558,7 +565,9 @@ figure > h2{
       clear: left;
     }
 
-  
+figcaption > p { 
+  max-width: 100%
+}  
 
 @media only screen and (min-width: 400px) {
     .photo-row {
