@@ -205,7 +205,8 @@ text-align:center;
   margin-top: 15px;
   width: 100px;
   border-top: 1px solid #b3b3b1;
-  padding-bottom: 40px;
+    margin-bottom:5%;
+
 }
 .divider-large{
   margin-left: auto;
@@ -425,8 +426,13 @@ padding-left:10%;
 
 /* PhotoGrid
    ========================================================================== */
+  .projects{
+background-color: rgb(245, 245, 243);
+  color:black;
+  padding-top:5%;
+  }
 .grid > figure.descriptionBlock{
-  background-color: #eeeae7;
+  background-color: white;
   word-spacing: -0.15em;
   font-weight: 300;
   text-transform: uppercase;
