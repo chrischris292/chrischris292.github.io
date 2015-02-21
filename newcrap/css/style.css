@@ -1,6 +1,6 @@
 /* Typography
    ========================================================================== */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:100,300,400);
 
 /* Layout
    ========================================================================== */
@@ -427,6 +427,48 @@ margin-top: -9px;
 
 /* PhotoGrid
    ========================================================================== */
+.grid > figure.descriptionBlock{
+  background-color: #eeeae7;
+  word-spacing: -0.15em;
+  font-weight: 300;
+  text-transform: uppercase;
+  cursor:auto;
+}
+.descriptionBlock img { 
+  z-index:-1;
+}
+figure > h2{
+  font-size:30px;
+  padding-top:50px;
+
+}
+.g {
+      overflow: hidden;
+      padding:0;
+    }
+    .g li {
+      float: left;
+      width: 50%;
+      position:relative;
+
+    }
+    .g img {
+      display: block;
+      max-width: 100%;
+    }
+    .g h1{
+      z-index: 1;
+      position:absolute;
+      bottom:30%;
+      text-transform: none;
+      color:white;
+      margin:auto;
+    }
+    .g li:nth-child(odd) {
+      clear: left;
+    }
+
+  
 
 @media only screen and (min-width: 400px) {
     .photo-row {
