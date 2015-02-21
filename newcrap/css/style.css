@@ -437,10 +437,30 @@ padding-left:10%;
   text-transform: uppercase;
   cursor:auto;
   background-color: #363636;
+  color:white;
+  position: relative;
+
 }
 .descriptionBlock img { 
+  position:absolute;
   z-index:-1;
 }
+.descriptionBlock h2{ 
+  position:absolute;
+  z-index:1;
+  width:100%;
+  text-align:left;
+  padding-left:10%;
+}
+.descriptionBlock p{ 
+  bottom:50%;
+  position:absolute;
+  z-index:1;
+  width:100%;
+  text-align:left;
+  padding-left:10%;
+}
+
 figure > h2{
   font-size:30px;
   padding-top:50px;
