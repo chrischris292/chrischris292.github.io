@@ -437,6 +437,7 @@ padding-left:10%;
   background-color: rgb(245, 245, 243);
   color:black;
   padding-top:5%;
+  margin-bottom:-1;
   }
 .grid > figure.descriptionBlock{
   word-spacing: -0.15em;
