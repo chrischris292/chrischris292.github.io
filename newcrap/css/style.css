@@ -411,6 +411,10 @@ padding-left:10%;
   width:35%;
   float:right;
 }
+.work > h4{
+    min-height:220px;
+
+}
 .work > h2{
   font-size: 1.5rem;
   margin-bottom:1rem;
