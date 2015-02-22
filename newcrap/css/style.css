@@ -96,7 +96,6 @@ section:first-of-type { border-top: none; }
    ========================================================================== */
 .introduction{
   color:white;
-  display: table;
   position: relative;
   height:100%;
   width:100%;
@@ -108,7 +107,6 @@ section:first-of-type { border-top: none; }
   -webkit-background-size: auto;
   -moz-background-size: cover;
   -o-background-size: auto;
-
 }
 .me:hover{
       -webkit-filter: grayscale(0%);
