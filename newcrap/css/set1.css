@@ -1170,7 +1170,7 @@ figure.effect-chico:hover p {
 	transform: scale(1);
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 38em) {
 	.content {
 		text-align: center;
 	}
