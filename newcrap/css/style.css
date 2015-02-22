@@ -587,11 +587,11 @@ figure > h2{
 a > i.flaticon{
     margin-left:30px;
     margin-right:30px;
-        -webkit-transition: all 1s ease; /* Safari and Chrome */
-    -moz-transition: all 1s ease; /* Firefox */
-    -o-transition: all 1s ease; /* IE 9 */
-    -ms-transition: all 1s ease; /* Opera */
-    transition: all 1s ease;
+        -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -o-transition: all .5s ease; /* IE 9 */
+    -ms-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
 
    }
 .flaticon-github17:hover{
