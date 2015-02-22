@@ -422,13 +422,12 @@ padding-left:10%;
 .work > h2.workTitle{
   margin-bottom:0rem;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 655px) {
   .workLogo{
     display: none;
   }
   .column.half{
     width:90%;
-    padding-right:5%;
   }
 }
 
