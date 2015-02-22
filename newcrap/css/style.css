@@ -94,13 +94,13 @@ section:first-of-type { border-top: none; }
 
 /* Header
    ========================================================================== */
-.headSection{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image:url("../images/fill.jpg");
+.introduction{
+  color:white;
+  display: table;
+  position: relative;
+  height:100%;
+  width:100%;
+    background-image:url("../images/fill.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -108,14 +108,7 @@ section:first-of-type { border-top: none; }
   -webkit-background-size: auto;
   -moz-background-size: cover;
   -o-background-size: auto;
-  z-index:-10;
-}
-.introduction{
-  color:white;
-  display: table;
-  position: relative;
-  height:100%;
-  width:100%;
+
 }
 .me:hover{
       -webkit-filter: grayscale(0%);
