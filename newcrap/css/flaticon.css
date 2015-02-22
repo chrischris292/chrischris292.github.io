@@ -11,13 +11,25 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-font-style: normal;
+    font-size: 70px;
+	font-style: normal;
+	margin-left: 0px;
+
 }.flaticon-bulb11:before {
 	content: "\e000";
 }
 .flaticon-codings1:before {
 	content: "\e001";
 }
-.flaticon-ruler9:before {
+.flaticon-expand22:before {
 	content: "\e002";
+}
+.flaticon-github17:before {
+	content: "\e003";
+}
+.flaticon-new100:before {
+	content: "\e004";
+}
+.flaticon-ruler9:before {
+	content: "\e005";
 }
