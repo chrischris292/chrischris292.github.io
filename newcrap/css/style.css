@@ -104,10 +104,10 @@ section:first-of-type { border-top: none; }
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: auto;
-  -webkit-background-size: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: auto;
+  -o-background-size: cover;
   overflow: hidden;
   background-color: lightgrey;
 }
