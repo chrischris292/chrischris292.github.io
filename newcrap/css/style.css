@@ -109,6 +109,7 @@ section:first-of-type { border-top: none; }
   -moz-background-size: cover;
   -o-background-size: auto;
   overflow: hidden;
+  background-color: lightgrey;
 }
 .me:hover{
       -webkit-filter: grayscale(0%);
