@@ -108,6 +108,7 @@ section:first-of-type { border-top: none; }
   -webkit-background-size: auto;
   -moz-background-size: cover;
   -o-background-size: auto;
+  overflow: hidden;
 }
 .me:hover{
       -webkit-filter: grayscale(0%);
