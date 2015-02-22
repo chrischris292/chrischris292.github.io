@@ -219,6 +219,22 @@ figure.effect-sadie p {
 	transform: translate3d(0,10px,0);
 }
 
+@media only screen and (max-width: 1024px) {
+
+	figure.effect-sadie h2 {
+		color: #fff;
+		-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+		transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+	}
+
+	figure.effect-sadie figcaption::before ,
+	figure.effect-sadie p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+
 figure.effect-sadie:hover h2 {
 	color: #fff;
 	-webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
