@@ -463,10 +463,8 @@ padding-left:10%;
 .descriptionDiv h2{  
   word-spacing: 0;
   font-size:2em;
-  padding-left:10%;
   padding-top:10%;
   padding-bottom:10%;
-  padding-right:10%;
 }
 .descriptionDiv >p{ 
   font-size:1em;
@@ -476,6 +474,15 @@ padding-left:10%;
 }
 .rightJust{
   text-align: right;
+}
+.rightJust h2{
+  padding-right:10%;
+  padding-left:0%;
+}
+.leftJust h2{
+    padding-right:0%;
+  padding-left:10%;
+
 }
 .leftJust{
   text-align: left;
